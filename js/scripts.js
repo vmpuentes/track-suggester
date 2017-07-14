@@ -1,17 +1,18 @@
 $(document).ready(function() {
-  $(".result").hide();
+  event.preventDefault();
+// $(".result").hide();
 
   // var questions = parseInt(submit("Do you like to design webpages?"));
   var q1Answer = parseInt($("#q1").val());
 
-console.log(q1Answer);
+// console.log(q1Answer);
 
-  if (q1Answer === 1) {
-    $('#csharp').show();
-  } else {
-    $('#ruby').show();
-  }
-});
+//   if (q1Answer === 1) {
+//     $('#csharp').show();
+//   } else {
+//     $('#ruby').show();
+//   }
+// });
 
 // THINGS TO CONSIDER:
 // Are we triggering an event? Y/N?
