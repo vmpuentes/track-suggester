@@ -11,32 +11,21 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Track Suggester Survey</h1>
-        <h2>What track should you study first? Before we answer that, let's start with a few quick YES or NO questions</h2>
-
+        <h2>What track should you study first? Before we answer that, let's start with a few quick YES or NO questions.</h2>
+      <form id="formOne">
         <h3>Are you interested in creating client applications?</h3>
-      <form id="formone">
-        <div class="form-control">
           <input id="q1" class="form-control" type="text">
-        </div>
           <h3>Is learning a popular or widley used language important to you?</h3>
-        <div class="form-control"
           <input id="q2" class="form-control" type="text">
-        </div>
           <h3>Are you interested in working with content-heavy websites?</h3>
-        <div class="form-control">
           <input id="q3" class="form-control" type="text">
-        </div>
           <h3>Would you enjoy working for a startup company?</h3>
-        <div class="form-control">
           <input id="q4" class="form-control" type="text">
-        </div>
           <h3>Do you want to learn a language that can be used for everything from web-developement to software tracking to scientific applications?</h3>
-        <div class="form-control">
           <input id="q5" class="form-control" type="text">
-        </div>
-      </form>
         <button type="submit" class="btn">Click here to show my suggestion according to your answers!</button>
-        <div id="results">
+      </form>
+        <div id="results" class="result">
           <div class="lang1" id="csharp">
             <h3>C#</h3>
               <p>The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment.Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.</p>
@@ -57,6 +46,7 @@
             <h3>PYTHON</h3>
               <p>Python is a general-purpose, versatile and popular programming language. It's great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer's stack as it can be used for everything from web development to software development and scientific applications.</p>
           </div>
+        </div>
       </div>
     </div>
   </body>
